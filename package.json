@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "yarn": "^1.22.22"
+  },
+  "name": "rateflix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
