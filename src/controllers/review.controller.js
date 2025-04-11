@@ -49,7 +49,7 @@ class ReviewController {
       const data = req.body;
       const review = await this.reviewService.updateReview(id, data);
       res.status(201).json({
-        message: "Success",
+        message: "Review successfully updated",
         data: review,
       });
     } catch (error) {
@@ -62,7 +62,7 @@ class ReviewController {
       const { id } = req.params;
       const review = await this.reviewService.deletereview(id);
       res.status(201).json({
-        message: "Success",
+        message: "Review successfully deleted",
         data: review,
       });
     } catch (error) {

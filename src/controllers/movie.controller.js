@@ -61,7 +61,7 @@ class MovieController {
       const { id } = req.params;
       const deletedMovie = await this.movieService.deleteMovie(id);
       res.status(201).json({
-        message: "Success",
+        message: "Movie successfully deleted",
         data: deletedMovie,
       });
     } catch (error) {
